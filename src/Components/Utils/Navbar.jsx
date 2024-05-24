@@ -24,11 +24,11 @@ function Navbar() {
 
           <span className="ml-3 text-xl">Youtube</span>
         </Link>
-        <section>
+        <section className=" w-full md:w-auto md:flex-initial">
           <SearchBar />
         </section>
         <section
-          className="text-2xl mr-3 hover:cursor-pointer mt-3 md:mt-0 text-red-600 hover:text-red-500"
+          className="text-2xl mr-3 hover:cursor-pointer mt-5 md:mt-0 text-icon"
           onClick={handleModeChange}
         >
           {mode === "dark" ? <FaSun /> : <MdNightlight />}

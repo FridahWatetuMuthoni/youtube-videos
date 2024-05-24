@@ -12,6 +12,7 @@ export default {
         muted: "rgb(var(--muted) / <alpha-value>)",
         hover: "rgb(var(--hover) / <alpha-value>)",
         button: "rgb(var(--button) / <alpha-value>)",
+        icon: "rgb(var(--icon) / <alpha-value>)",
       },
     },
     fontFamily: {

@@ -27,7 +27,7 @@ function SearchBar() {
         onChange={handleChange}
         value={searchTerm}
       />
-      <button className="absolute inset-y-0 right-0 flex items-center px-4 text-white bg-red-600 hover:bg-red-500 hover:text-white border border-gray-300 rounded-r-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+      <button className="absolute inset-y-0 right-0 flex items-center px-4 text-white bg-red-600 hover:bg-red-500 hover:text-white  rounded-r-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
         <svg
           className="h-5 w-5"
           fill="currentColor"

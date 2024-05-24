@@ -53,8 +53,8 @@ function VideoDetail() {
 
   return (
     <div className="flex w-full p-3 gap-4 items-center flex-col">
-      <div className="flex justify-center w-full mx-auto h-[83vh] shadow-lg rounded-lg ">
-        <div className="  w-full lg:h-[65vh]">
+      <div className="flex justify-center w-full mx-auto h-[88vh] md:h-[83vh] shadow-lg rounded-lg ">
+        <div className=" w-full h-[65vh]">
           <ReactPlayer
             url={`https://www.youtube.com/watch?v=${id}`}
             className="react-player"
@@ -79,7 +79,7 @@ function VideoDetail() {
         </div>
       </div>
 
-      <section className="">
+      <section className="mt-2">
         {videos?.length > 0 ? <Videos videos={videos} /> : null}
       </section>
     </div>

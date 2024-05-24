@@ -9,7 +9,6 @@ import {
 } from "../Utils/constants";
 
 function ChannelCard({ details }) {
-  console.log(details);
   return (
     <div className="rounded overflow-hidden shadow-lg ">
       <Link to={`/channel/${details?.id?.channelId}`}>
